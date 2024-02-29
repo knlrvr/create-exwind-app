@@ -13,7 +13,7 @@ const runCommand = command => {
 }
 
 const repoName = process.argv[2];
-const gitCheckoutCommand = `git clone --depth 1 https://github.com/knlrvr/create-exwind-app ${repoName}`;
+const gitCheckoutCommand = `git clone https://github.com/knlrvr/create-exwind-app ${repoName}`;
 const installDepsCommand = `cd ${repoName} && npm install`;
 
 console.log(`Cloning repository in ${repoName}`);
