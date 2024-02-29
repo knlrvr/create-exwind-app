@@ -26,8 +26,12 @@ console.log(`Installing required dependencies for ${repoName}`);
 const installedDeps = runCommand(installDepsCommand);
 if(!installedDeps) process.exit(); 
 
-console.log(`Congrats! The repo is ready. Please use the following commands to get started with create-exwind-app and install Convex (if you need a backend).`);
+console.log(`Congrats! The repo is ready!`);
+console.log(`Please use the following commands to get started with create-exwind-app and install Convex (if you need a backend).`);
+console.log(` `);
 console.log(`cd ${repoName}`);
+console.log(`npm run dev`);
+console.log(` `);
 console.log(`~* optional *~`)
 console.log(`npx convex dev`);
 console.log(`npm install @clerk/clerk-react ( for authentication )`);
