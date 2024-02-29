@@ -1,8 +1,11 @@
 {
   "name": "@knlrvr/create-exwind-app",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "A Next.js starter using TypeScript, Tailwind, Convex & Jest.",
-  "bin": "./bin/cli.ts",
+  "bin": {
+    "@knlrvr/create-exwind-app": "bin/create-exwind-app.js",
+    "create-exwind-app": "bin/create-exwind-app.js"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
