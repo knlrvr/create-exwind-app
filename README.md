@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h2 align="center">Welcome to create-exwind-app!</h2>
 
-## Getting Started
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Table of Contents
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [Description](#description)
+- [Tech Choice](#tech-choice)
+	- [Next.js](#nextjs)
+	- [Tailwind](#tailwind)
+	- [Convex](#convex)
+	- [Jest](#jest)
+- [Feedback](#feedback)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Description
+<a name='description'></a>
+This template is designed to enforce type safety across your application, without compromise. It uses Next.js with TypeScript, Tailwind with shadcn/ui, Convex (optional) as a complete backend solution, and Jest so you never forget to test! 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+create-exwind-app is the boilerplate template of the technologies that I find myself reaching for the most. It's in no way a depiction of what I think is the best, but rather a depiction of what I have enjoyed working with. 
 
-## Learn More
+## Tech Choice
+<a name='tech-choice'></a>
+Again, these are just the technologies that I found to be the most enjoyable and productive to work with. 
+#### Next.js
+The industry standard for React projects. Next.js is feature-rich and ridiculously flexible. 
 
-To learn more about Next.js, take a look at the following resources:
+#### Tailwind 
+Tailwind lets you speedrun CSS. It's quick, efficient, and easy to use. 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### Convex
+Convex is more than a backend. It's is a fullstack TypeScript developer platform. It's realtime, efficient, and offers a great DX. 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+#### Jest
+Jest is unmatched in unit testing. It's straight forward and, like this entire stack, easy to use. 
 
-## Deploy on Vercel
+## Feedback
+<a name='feedback'></a>
+I usually have no idea what I'm doing! If you can improve this at all or if you have any ideas for what could be changed/added/removed/whatever, please let me know! 
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+I hope this is as useful to you as it is to me! 

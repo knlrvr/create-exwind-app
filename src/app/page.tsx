@@ -11,19 +11,6 @@ export default function Page() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-6 md:p-16 max-w-2xl mx-auto">
 
-      {/* <div className="mt-12 text-center flex flex-col space-y-4">
-        <h1 className="text-xl md:text-2xl font-light">
-          Welcome to <br /> 
-          <code className="text-xl md:text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-br from-emerald-200 to-emerald-800 ">create-exwind-app</code>
-          &nbsp;!
-        </h1>
-        <p className="font-light text-lg">
-          This template is designed to enforce type safety across your application, without compromise. It uses Next.js with TypeScript <span className="text-neutral-500">(obviously)</span>,
-          Tailwind with Shadcn/ui, Convex (optional) as a complete backend solution, and Jest & React Testing Library 
-          so you never forget to test!
-        </p>
-      </div> */}
-
       <div className="flex flex-col space-y-4">
         <Image
           src='/logo.jpeg'
