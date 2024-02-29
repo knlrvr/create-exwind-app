@@ -14,7 +14,7 @@ const runCommand = command => {
 
 const repoName = process.argv[2];
 const gitCheckoutCommand = `git clone https://github.com/knlrvr/create-exwind-app ${repoName}`;
-const installDepsCommand = `cd ${repoName} && npm install`;
+const installDepsCommand = `cd ${repoName} && npm install -D`;
 
 console.log(`Cloning repository in ${repoName}`);
 
@@ -28,6 +28,7 @@ if(!installedDeps) process.exit();
 
 console.log(`Congrats! The repo is ready. Please use the following commands to get started with create-exwind-app and install Convex (if you need a backend).`);
 console.log(`cd ${repoName}`);
+console.log(`~* optional *~`)
 console.log(`npx convex dev`);
-console.log(`npm install @clerk/clerk-react (authentication)`);
-console.log(`npm start`);
+console.log(`npm install @clerk/clerk-react ( for authentication )`);
+console.log(`npm run dev`);
