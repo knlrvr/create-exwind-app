@@ -1,6 +1,6 @@
 <h2 align="center">Welcome to create-exwind-app!</h2>
 
-
+![logo](https://github.com/knlrvr/create-exwind-app/assets/91632194/b5ead078-ae2f-4016-b60d-9ebee196f7c4)
 
 ### Table of Contents
 
