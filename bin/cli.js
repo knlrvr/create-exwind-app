@@ -2,7 +2,7 @@
 
 const { execSync } = require(`child_process`);
 
-const runCommand = (command: string) => {
+const runCommand = command => {
     try {
         execSync(`${command}`, { stdio: 'inherit' })
     } catch (e) {
