@@ -34,7 +34,7 @@ export default function Page() {
 
       <div className="grid grid-cols-1 w-full mt-12">
         <a
-          href="/"
+          href="https://github.com/knlrvr/create-exwind-app"
           className="group"
           target="_blank"
           rel="noopener noreferrer"
