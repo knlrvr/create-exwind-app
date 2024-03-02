@@ -27,7 +27,7 @@ export default function Page() {
       <div className="">
         <p className="pt-4 font-light text-lg text-neutral-500">
           This template is designed to enforce type safety across your application, without compromise. It uses Next.js with TypeScript <span className="text-transparent bg-clip-text bg-gradient-to-br from-teal-500 to-emerald-500 dark:from-emerald-200 dark:to-teal-700">(obviously)</span>,
-          Tailwind with Shadcn/ui, Convex <span className="text-transparent bg-clip-text bg-gradient-to-br from-teal-500 to-emerald-500 dark:from-emerald-200 dark:to-teal-700">(optional)</span> as a complete backend solution, and Jest & React Testing Library 
+          Tailwind with Shadcn/ui, Convex <span className="text-transparent bg-clip-text bg-gradient-to-br from-teal-500 to-emerald-500 dark:from-emerald-200 dark:to-teal-700">(optional)</span> as a complete backend solution, and Jest
           so you never forget to test!
         </p>
       </div>
